@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Natasha';
+  src: local('Natasha'),
+  url('./fonts/Natasha.ttf') format("truetype");
+  font-weight: bold;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

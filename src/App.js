@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import cat from "./images/cat.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="hwrap">
+        <div class="hmove">
+          <div class="hitem">усатый любимец ведёт нас к победе</div>
+          <div class="hitem">усатый любимец – светоч коммунизма</div>
+          <div class="hitem">спасибо усатому любимцу за счастливое детство</div>
+          <div class="hitem">усатый любимец – счастье народное</div>
+          <div class="hitem">
+            под водительством усатого любимца – вперёд к коммунизму!
+          </div>
+          <div class="hitem">
+            Мы учимся так, чтобы усатый любимец «Отлично, ребята» сказал
+          </div>
+          <div class="hitem">
+            под предводительством усатого любимца – вперёд к новому расцвету
+            нашей родины
+          </div>
+        </div>
+      </div>
+      <img className="cat__image" src={cat} alt="cat" />
     </div>
   );
 }
